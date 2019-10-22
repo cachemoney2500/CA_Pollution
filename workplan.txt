@@ -13,3 +13,5 @@ INITIAL LINEAR MODELING (week 5)
 COMPARE OTHER MODELS
 - SVM - Courtney
 - Neural Network - Courtney
+
+aa
