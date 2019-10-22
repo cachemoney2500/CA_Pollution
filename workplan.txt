@@ -1,0 +1,15 @@
+CLEANING DATA (week 5)
+- check for missing data - Richard
+
+SEGMENT DATA (week 5)
+- automatic classification of rural vs urban - Richard
+
+INITIAL LINEAR MODELING (week 5)
+- experiment different Generalized Linear Models - Courtney
+	- write function to train data, validate, and plot - Courtney
+- try different feature / label pairs (total pollution index vs. poverty levels) (rural) + plot - Akwasi
+- feature selection (NN) - Richard
+
+COMPARE OTHER MODELS
+- SVM - Courtney
+- Neural Network - Courtney
