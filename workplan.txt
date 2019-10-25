@@ -1,8 +1,10 @@
 CLEANING DATA (week 5)
 - check for missing data - Richard
 
+
 SEGMENT DATA (week 5)
 - automatic classification of rural vs urban - Richard
+
 
 INITIAL LINEAR MODELING (week 5)
 - experiment different Generalized Linear Models - Courtney
@@ -10,6 +12,13 @@ INITIAL LINEAR MODELING (week 5)
 - try different feature / label pairs (total pollution index vs. poverty levels) (rural) + plot - Akwasi
 - feature selection (NN) - Richard
 
+
 COMPARE OTHER MODELS
 - SVM - Courtney
 - Neural Network - Courtney
+
+
+MOSES' ADVICE:
+- start with simple algorithm (i.e. Naive Bayes)
+- build intuition: when does algorithm work well? what are cases where it has issues?
+- then focus on problematic cases
