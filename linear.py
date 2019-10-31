@@ -4,6 +4,15 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error, r2_score
 import util
 
+
+def correlation(x,y):
+    linreg = linear_model.LinearRegression()
+    linreg.fit(x_train,y_train)
+
+    print(linreg.values)
+    
+
+
 def LinReg(x,y):
 
   #split data into train & test
@@ -26,7 +35,8 @@ def LinReg(x,y):
   plt.show()
 
 
- def RANSAC(x,y):
+
+def RANSAC(x,y):
 
    #split data into train & test
    x_train,y_train,x_test,y_test = util.split_data(x,y)
