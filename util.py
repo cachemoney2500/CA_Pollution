@@ -11,8 +11,8 @@ split_data: function that partitions a data set into a training and test set
 """
 def split_data(x,y,test_percent = .3):
     n = len(y)
-    split = np.round(test_percent*n)
-
+    split = int(np.round(test_percent*n))
+    
     x_train = x[:-split]
     x_test = x[-split,:]
     y_train = y[:-split]
