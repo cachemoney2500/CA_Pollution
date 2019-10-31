@@ -9,7 +9,7 @@ def correlation(x,y):
     linreg = linear_model.LinearRegression()
     linreg.fit(x,y)
 
-    return int(linreg.coef_)
+    return float(linreg.coef_)
 
 
 
