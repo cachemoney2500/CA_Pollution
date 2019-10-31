@@ -1,6 +1,6 @@
 from sklearn import linear_model
 import numpy as np
-import matplotlib.PyPlot as plt
+import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error, r2_score
 import util
 
