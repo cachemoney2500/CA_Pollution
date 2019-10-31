@@ -7,10 +7,10 @@ import util
 
 def correlation(x,y):
     linreg = linear_model.LinearRegression()
-    linreg.fit(x_train,y_train)
+    linreg.fit(x,y)
 
     print(linreg.values)
-    
+
 
 
 def LinReg(x,y):
